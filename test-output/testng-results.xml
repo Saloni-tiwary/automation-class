@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-06T22:27:58 IST" name="Default suite" finished-at="2024-06-06T22:28:51 IST" duration-ms="53675">
+    <groups>
+    </groups>
+    <test started-at="2024-06-06T22:27:58 IST" name="Default test" finished-at="2024-06-06T22:28:51 IST" duration-ms="53675">
+      <class name="tests.FacebookLoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:27:58 IST" name="setUp" finished-at="2024-06-06T22:28:01 IST" duration-ms="3272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCreateNewAccountButtonValidation()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:01 IST" name="testCreateNewAccountButtonValidation" finished-at="2024-06-06T22:28:01 IST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateNewAccountButtonValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:01 IST" name="tearDown" finished-at="2024-06-06T22:28:01 IST" duration-ms="288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:01 IST" name="setUp" finished-at="2024-06-06T22:28:05 IST" duration-ms="3806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFacebookLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:05 IST" name="testFacebookLogin" data-provider="loginData" finished-at="2024-06-06T22:28:10 IST" duration-ms="4890" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wavopas203@crodity.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[wavopas203@crodity.com1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:10 IST" name="tearDown" finished-at="2024-06-06T22:28:10 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:10 IST" name="setUp" finished-at="2024-06-06T22:28:14 IST" duration-ms="3163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFacebookLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:14 IST" name="testFacebookLogin" data-provider="loginData" finished-at="2024-06-06T22:28:15 IST" duration-ms="1713" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user1@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:15 IST" name="tearDown" finished-at="2024-06-06T22:28:15 IST" duration-ms="206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:15 IST" name="setUp" finished-at="2024-06-06T22:28:19 IST" duration-ms="3473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFacebookLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:19 IST" name="testFacebookLogin" data-provider="loginData" finished-at="2024-06-06T22:28:20 IST" duration-ms="1422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user2@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:20 IST" name="tearDown" finished-at="2024-06-06T22:28:21 IST" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:21 IST" name="setUp" finished-at="2024-06-06T22:28:24 IST" duration-ms="3479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFacebookLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:24 IST" name="testFacebookLogin" data-provider="loginData" finished-at="2024-06-06T22:28:25 IST" duration-ms="1404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidemail]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:25 IST" name="tearDown" finished-at="2024-06-06T22:28:26 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:26 IST" name="setUp" finished-at="2024-06-06T22:28:29 IST" duration-ms="3445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFacebookLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:29 IST" name="testFacebookLogin" data-provider="loginData" finished-at="2024-06-06T22:28:31 IST" duration-ms="1600" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[           ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:31 IST" name="tearDown" finished-at="2024-06-06T22:28:31 IST" duration-ms="204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:31 IST" name="setUp" finished-at="2024-06-06T22:28:35 IST" duration-ms="3407" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testFacebookLogin(java.lang.String,java.lang.String,boolean)[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:35 IST" name="testFacebookLogin" data-provider="loginData" finished-at="2024-06-06T22:28:36 IST" duration-ms="1605" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[         ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFacebookLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:36 IST" name="tearDown" finished-at="2024-06-06T22:28:36 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:36 IST" name="setUp" finished-at="2024-06-06T22:28:40 IST" duration-ms="3374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testInputFieldValidation()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:40 IST" name="testInputFieldValidation" finished-at="2024-06-06T22:28:40 IST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInputFieldValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:40 IST" name="tearDown" finished-at="2024-06-06T22:28:40 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:40 IST" name="setUp" finished-at="2024-06-06T22:28:44 IST" duration-ms="3447" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLoginButtonValidation()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:44 IST" name="testLoginButtonValidation" finished-at="2024-06-06T22:28:44 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginButtonValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:44 IST" name="tearDown" finished-at="2024-06-06T22:28:44 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:44 IST" name="setUp" finished-at="2024-06-06T22:28:48 IST" duration-ms="3561" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testTitleValidation()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:48 IST" name="testTitleValidation" finished-at="2024-06-06T22:28:48 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitleValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:48 IST" name="tearDown" finished-at="2024-06-06T22:28:48 IST" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:48 IST" name="setUp" finished-at="2024-06-06T22:28:51 IST" duration-ms="3400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testURLValidation()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:51 IST" name="testURLValidation" finished-at="2024-06-06T22:28:51 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURLValidation -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.FacebookLoginTest@2a7f1f10]" started-at="2024-06-06T22:28:51 IST" name="tearDown" finished-at="2024-06-06T22:28:51 IST" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.FacebookLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
